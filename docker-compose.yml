@@ -1,7 +1,7 @@
 version : "3.3"
 services :
   web :
-     image : "sunraw/notes-app:tagname:latest"
+     image : "sunraw/notes-app:latest"
      ports :
          - "8000:8000"
      volumes:
